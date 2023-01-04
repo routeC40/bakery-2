@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: #686868;
+    font-family: sans-serif,monospace;
+    line-height: 1.86em;
+}
+li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+
+/* Start Nav_bar */
+.parent{
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: 1;
+    padding: 1px;
+}
+
+.nav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.nav .nav_img{
+    display: inline-block;
+    width: 45%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.nav_img  img{
+    width: 22%;
+}
+.nav .nav_list{
+    display: inline-block;
+    width: 45%;
+}
+.nav_list ul{
+    list-style-type: none;
+    float:right;
+}
+.nav li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+/* End Nav_bar */
+
+/* Start parent_content */
+.parent_content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 90px;
+}
+.parent_content .p_Welcome{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+.parent_content .h_Family{
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: white;
+}
+.parent_content .learn_more{
+    padding: 15px 25px;
+    background-color: #8e7754;
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+    margin-right: 6px;
+    font-size: 15px;
+}
+.parent_content .learn_more:hover {
+    background-color: white;
+    color: #8e7754;
+}
+.parent_content .contact_us:hover{
+    background-color: white;
+    color: #8e7754;
+}
+.parent_content .contact_us{
+    padding: 15px 25px;
+    background:none;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid ;
+    font-size: 15px;
+}
+/* End parent_content */
+
+/* start parent_two */
+.s_two{
+    padding: 10px 0;
+    background-color: white;
+}
+.parent_two{
+    margin: 50px;
+    padding: 1px;
+}
+.img_two{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.img_two img{
+    width: 85%;
+}
+/* start content_two */
+.content_two{
+    float: left;
+    width: 46%;
+    padding: 15px 20px 0;
+}
+.content_two h2{
+    color: #303030;
+    text-align: center;
+    margin-top: 40px ;
+}
+.content_content p{
+    margin-top: 20px;
+    text-align: center;
+}
+/* End content_two */
+/* start list_two */
+.list_two ul{
+    list-style-type: none;
+}
+
+.list_two ul li p{
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.fa{
+    border: 0.5px solid #929292;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+    color: #8e7754;
+    float: left;
+}
+/* End list_two */
+
+ /* start s_three */
+.s_three{
+    padding: 10px 0;
+    background-color: #f8f8f8;
+}
+
+.s_four{
+    text-align: center;
+    padding: 40px 0;
+}
+.s_four h2{
+    margin-bottom: 30px;
+}
+.s_four p{
+    margin-bottom: 20px;
+}
+
+ /* start dessert */
+
+.desserts img{
+    width: 100%;
+}
+.desserts h4{
+    margin: 10px 0;
+}
+.dessert_1{
+    display: inline-block;
+    text-align: center;
+    width: 26%;
+    padding: 5px 25px;
+}
+
+.dessert_2{
+    display: inline-block;
+    text-align: center;
+    width: 26%;
+    padding: 5px 25px;
+}
+.dessert_3{
+    display: inline-block;
+    text-align: center;
+    width: 26%;
+    padding: 5px 25px;
+}
+ /* End dessert */
+ /* end s_three */
+
+.s_five{
+    padding: 30px 0;
+    background-color: #f8f8f8;
+}
+.five{
+    width: 90%;
+    margin: auto;
+    padding: 15px 20px 0;
+}
+.content_5{
+    float: left;
+    width: 48%;
+    padding: 15px 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.content_5 p{
+    margin-top: 30px;
+}
+.map{
+    float: left;
+    width: 48%;
+    height: 50%;
+    text-align: center;
+}
+.map img{
+    width: 80%;
+}
+.data{
+    text-align: left;
+}
+.fas{
+    background-color: #8e7754;
+    color: #fff;
+    border: none;
+}
+/* start footer */
+.footer{
+    background-color: #403d38;
+    padding-top: 30px;
+}
+.footer_1{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+.footer_2{
+    background-color: teal;
+}
+.footer_1 p{
+    font-size: 18px;
+    color: #969696;
+    padding-bottom: 20px;
+}
+.footer_1 h3{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* about */
+.footer .footer_1 .about{
+    float: left;
+    width: 24%;
+}
+/* special */
+.footer .footer_1 .special{
+    float: left;
+    width: 24%;
+    margin-left: 20px;
+}
+.footer .footer_1 table tr{
+    border-bottom: .5px solid #000;
+    color: #969696;
+    font-size: 22px;
+}
+.footer .footer_1 table tr td{
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+/* opening */
+.footer .footer_1 .opening{
+    float: left;
+    width: 24%;
+}
+.footer .footer_1 .contact_details{
+    float: left;
+    width: 24%;
+}
+.footer .footer_2{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #353330;
+}
+.footer .footer_2 p{
+    font-size: 14px;
+    padding: 20px;
+    color: #969696;
+}
+.footer .footer_2 .links .fa-brands{
+    background-color: #484540;
+    color: #8c8a86;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.footer .footer_2 .links .fa-facebook-f:hover{
+    background-color: #4267B2;
+    color: white;
+}
+.footer .footer_2 .links .fa-google-plus-g:hover{
+    background-color: #EA4335;
+    color: white;
+}
+.footer .footer_2 .links .fa-linkedin-in:hover{
+    background-color: #0A66C2;
+    color: white;
+}
+.footer .footer_2 .links .fa-twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+}
